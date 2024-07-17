@@ -1,13 +1,11 @@
-import { NavBar } from "./components/navbar";
+import { TopBar } from "./components/topbar";
 import { Content } from "./components/content";
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <div className="flex flex-col">
-      <Content/>
-      </div>
+    <div className="w-screen flex-col flex items-center">
+      <TopBar />
+      <Content />
     </div>
   );
 }

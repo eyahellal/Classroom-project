@@ -4,7 +4,7 @@ import { Main } from "./main";
 
 export function Content(){
     return(
-        <div className="flex w-full bg-red-300	">
+        <div className="flex w-full">
         <SideBar/>
          <Main/>
         </div>
